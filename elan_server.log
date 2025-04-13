@@ -1,0 +1,410 @@
+2025-04-13 12:31:43,403 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:31:43,430 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:31:43,431 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 12:31:52,461 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:31:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:31:52,715 - elan_server - INFO - Received message: Hello
+2025-04-13 12:31:52,715 - elan_server - INFO - Responding with greeting
+2025-04-13 12:31:52,715 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:31:52] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:32:00,123 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:00] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:32:00,447 - elan_server - INFO - Received message: Tell me about IPL
+2025-04-13 12:32:00,447 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:32:00,447 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:32:02,071 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:32:02,214 - elan_server - INFO - Responding with Groq response (processing took 1.77s)
+2025-04-13 12:32:02,214 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:02] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:32:14,041 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:14] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:32:14,347 - elan_server - INFO - Received message: Who is known as King in cricket
+2025-04-13 12:32:14,347 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:32:14,347 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:32:15,613 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:32:15,613 - elan_server - INFO - Responding with Groq response (processing took 1.27s)
+2025-04-13 12:32:15,613 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:15] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:32:31,763 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:32:32,080 - elan_server - INFO - Received message: What is kohli called
+2025-04-13 12:32:32,081 - elan_server - INFO - Topic is out of scope
+2025-04-13 12:32:32,082 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:32] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:32:44,223 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:44] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:32:44,546 - elan_server - INFO - Received message: Give me a fitness plan
+2025-04-13 12:32:44,546 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:32:44,546 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:32:46,846 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:32:46,871 - elan_server - INFO - Responding with Groq response (processing took 2.32s)
+2025-04-13 12:32:46,871 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:32:46] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:33:08,272 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:33:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:33:08,595 - elan_server - INFO - Received message: Who won Yesterday's IPL match
+2025-04-13 12:33:08,595 - elan_server - INFO - Detected current event query, skipping Groq
+2025-04-13 12:33:08,595 - elan_server - INFO - Performing web search
+2025-04-13 12:33:08,595 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 12:33:09,783 - elan_server - ERROR - Google Search API error: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+Yesterday%27s+IPL+match&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=5
+2025-04-13 12:33:09,783 - elan_server - INFO - Falling back to SerpAPI
+2025-04-13 12:33:12,435 - elan_server - INFO - Found 5 web results, generating summary
+2025-04-13 12:33:12,435 - elan_server - INFO - Sending summarization request to Groq API (attempt 1/3)
+2025-04-13 12:33:14,292 - elan_server - INFO - Successfully received summary from Groq
+2025-04-13 12:33:14,303 - elan_server - INFO - Responding with web search summary (processing took 5.71s)
+2025-04-13 12:33:14,303 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:33:14] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:36:19,887 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:36:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:36:20,137 - elan_server - INFO - Received message: Who is the sports minister
+2025-04-13 12:36:20,137 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:36:20,141 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:36:21,442 - elan_server - INFO - Groq indicated query is out of scope
+2025-04-13 12:36:21,449 - elan_server - INFO - Performing web search
+2025-04-13 12:36:21,449 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 12:36:22,294 - elan_server - ERROR - Google Search API error: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+is+the+sports+minister&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=5
+2025-04-13 12:36:22,294 - elan_server - INFO - Falling back to SerpAPI
+2025-04-13 12:36:24,684 - elan_server - INFO - Found 5 web results, generating summary
+2025-04-13 12:36:24,685 - elan_server - INFO - Sending summarization request to Groq API (attempt 1/3)
+2025-04-13 12:36:26,083 - elan_server - INFO - Successfully received summary from Groq
+2025-04-13 12:36:26,096 - elan_server - INFO - Responding with web search summary (processing took 5.96s)
+2025-04-13 12:36:26,096 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:36:26] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:39:27,793 - werkzeug - INFO -  * Detected change in 'C:\\Users\\91868\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\hashlib.py', reloading
+2025-04-13 12:50:20,237 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:50:20,276 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 12:50:20,276 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 12:50:20,289 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 12:50:20,793 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:50:20,812 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:50:20,816 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 12:50:27,236 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:27] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:50:27,486 - elan_server - INFO - Received message: Hello
+2025-04-13 12:50:27,486 - elan_server - INFO - Responding with greeting
+2025-04-13 12:50:27,492 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:27] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:50:40,272 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:40] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:50:40,584 - elan_server - INFO - Received message: Can you design a fitness plan for me
+2025-04-13 12:50:40,584 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:50:40,586 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:50:42,149 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:50:42,336 - elan_server - INFO - Responding with Groq response (processing took 1.75s)
+2025-04-13 12:50:42,337 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:42] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:50:55,752 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:55] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:50:56,064 - elan_server - INFO - Received message: Who won IPL 2024 Finals
+2025-04-13 12:50:56,065 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:50:56,065 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:50:57,415 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:50:57,423 - elan_server - INFO - Responding with Groq response (processing took 1.36s)
+2025-04-13 12:50:57,423 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:50:57] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:52:51,162 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:52:51,202 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 12:52:51,202 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 12:52:51,211 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 12:52:51,722 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:52:51,742 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:52:51,751 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 12:53:01,312 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:53:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:53:01,576 - elan_server - INFO - Received message: Who won IPL 2024
+2025-04-13 12:53:01,576 - elan_server - INFO - Detected current event query, skipping Groq
+2025-04-13 12:53:01,576 - elan_server - INFO - Performing web search
+2025-04-13 12:53:01,576 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 12:53:02,342 - elan_server - ERROR - Google Search API error: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2024&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=5
+2025-04-13 12:53:02,342 - elan_server - INFO - Falling back to SerpAPI
+2025-04-13 12:53:05,482 - elan_server - INFO - Found 5 web results, generating summary
+2025-04-13 12:53:05,482 - elan_server - INFO - Sending summarization request to Groq API (attempt 1/3)
+2025-04-13 12:53:06,802 - elan_server - INFO - Successfully received summary from Groq
+2025-04-13 12:53:06,984 - elan_server - INFO - Responding with web search summary (processing took 5.41s)
+2025-04-13 12:53:06,991 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:53:06] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:53:48,698 - werkzeug - INFO -  * Detected change in 'C:\\Users\\91868\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-04-13 12:53:48,705 - werkzeug - INFO -  * Detected change in 'C:\\Users\\91868\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-13 12:53:48,765 - werkzeug - INFO -  * Detected change in 'C:\\Users\\91868\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\scaffold.py', reloading
+2025-04-13 12:53:49,047 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 12:53:49,790 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:53:49,815 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:53:49,821 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 12:58:52,013 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:58:52,051 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 12:58:52,051 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 12:58:52,063 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 12:58:52,575 - elan_server - INFO - Starting ELAN server
+2025-04-13 12:58:52,601 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:58:52,604 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 12:58:59,763 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:58:59] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:59:00,013 - elan_server - INFO - Received message: Hello Elan
+2025-04-13 12:59:00,015 - elan_server - INFO - Responding with greeting
+2025-04-13 12:59:00,015 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:00] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:59:08,832 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:59:09,145 - elan_server - INFO - Received message: Can you tell about yourself
+2025-04-13 12:59:09,145 - elan_server - INFO - Topic is out of scope
+2025-04-13 12:59:09,145 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:09] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:59:17,162 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:59:17,466 - elan_server - INFO - Received message: Who Created you
+2025-04-13 12:59:17,466 - elan_server - INFO - Topic is out of scope
+2025-04-13 12:59:17,467 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:17] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:59:31,563 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:31] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:59:31,873 - elan_server - INFO - Received message: Give me a fitness plan
+2025-04-13 12:59:31,876 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 12:59:31,876 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 12:59:35,403 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 12:59:35,581 - elan_server - INFO - Responding with Groq response (processing took 3.71s)
+2025-04-13 12:59:35,581 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:35] "POST /chat HTTP/1.1" 200 -
+2025-04-13 12:59:42,363 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:42] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 12:59:42,678 - elan_server - INFO - Received message: How I live stressfree
+2025-04-13 12:59:42,678 - elan_server - INFO - Topic is out of scope
+2025-04-13 12:59:42,678 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 12:59:42] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:43:20,328 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 13:43:20,329 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 13:43:20,345 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:43:20,840 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:43:20,843 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:43:28,022 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:43:28] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:43:28,283 - elan_server - INFO - Received message: Hello
+2025-04-13 13:43:28,283 - elan_server - INFO - Responding with greeting
+2025-04-13 13:43:28,283 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:43:28] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:43:38,367 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:43:38] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:43:38,683 - elan_server - INFO - Received message: Give me a fitness plan
+2025-04-13 13:43:38,683 - elan_server - INFO - Attempting to get response from Groq
+2025-04-13 13:43:38,683 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 13:43:41,145 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 13:43:41,565 - elan_server - INFO - Responding with Groq response (processing took 2.88s)
+2025-04-13 13:43:41,567 - werkzeug - INFO -  * Detected change in 'C:\\Users\\91868\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\bleach\\sanitizer.py', reloading
+2025-04-13 13:43:41,568 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:43:41] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:43:41,979 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:43:42,668 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:43:42,672 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:45:17,610 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:45:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:45:17,868 - elan_server - INFO - Received message: Who won 2024 IPL
+2025-04-13 13:45:17,869 - elan_server - INFO - Topic is out of scope
+2025-04-13 13:45:17,870 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:45:17] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:53:20,229 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:53:20,231 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:53:20,231 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:53:21,154 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:53:21,836 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:53:21,841 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:53:26,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 13:53:26,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 13:53:26,058 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:53:26,610 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:53:26,614 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:53:34,261 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:53:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:53:34,526 - elan_server - INFO - Received message: Who won IPL 2021
+2025-04-13 13:53:34,527 - elan_server - INFO - Detected 'who won' query for a specific event: Who won IPL 2021
+2025-04-13 13:53:34,527 - elan_server - INFO - Detected current event query, performing web search
+2025-04-13 13:53:34,528 - elan_server - INFO - Enhanced query with date context: Who won IPL 2021 latest
+2025-04-13 13:53:34,528 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:53:35,544 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2021+latest&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 13:53:35,545 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:53:38,115 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:53:38,116 - elan_server - INFO - No direct response available, attempting web search enhancement
+2025-04-13 13:53:38,117 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:53:39,079 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2021&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8
+2025-04-13 13:53:39,080 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:53:42,528 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:53:42,530 - elan_server - WARNING - Unable to provide a response via any method
+2025-04-13 13:53:42,530 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:53:42] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:54:24,752 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:54:24,752 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:54:24,754 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 13:54:24,897 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:54:25,545 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:54:25,553 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:54:29,071 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 13:54:29,071 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 13:54:29,085 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 13:54:29,654 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 13:54:29,663 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 13:54:41,735 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:54:41] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:54:41,997 - elan_server - INFO - Received message: Who won IPL 2021
+2025-04-13 13:54:41,997 - elan_server - INFO - Detected 'who won' query for a specific event: Who won IPL 2021
+2025-04-13 13:54:41,998 - elan_server - INFO - Detected current event query, performing web search
+2025-04-13 13:54:41,998 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:54:42,799 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2021&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 13:54:42,799 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:54:43,626 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:54:43,628 - elan_server - INFO - No direct response available, attempting web search enhancement
+2025-04-13 13:54:43,629 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:54:44,543 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2021&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8
+2025-04-13 13:54:44,543 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:54:45,365 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:54:45,366 - elan_server - WARNING - Unable to provide a response via any method
+2025-04-13 13:54:45,367 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:54:45] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:55:02,711 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:55:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:55:03,025 - elan_server - INFO - Received message: Who won IPL 224
+2025-04-13 13:55:03,026 - elan_server - INFO - Detected 'who won' query for a specific event: Who won IPL 224
+2025-04-13 13:55:03,027 - elan_server - INFO - Detected current event query, performing web search
+2025-04-13 13:55:03,027 - elan_server - INFO - Enhanced query with date context: Who won IPL 224 latest
+2025-04-13 13:55:03,028 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:55:03,981 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+224+latest&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 13:55:03,981 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:55:06,439 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:55:06,443 - elan_server - INFO - No direct response available, attempting web search enhancement
+2025-04-13 13:55:06,443 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:55:07,317 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+224&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8
+2025-04-13 13:55:07,317 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:55:09,187 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:55:09,191 - elan_server - WARNING - Unable to provide a response via any method
+2025-04-13 13:55:09,193 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:55:09] "POST /chat HTTP/1.1" 200 -
+2025-04-13 13:55:12,675 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:55:12] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 13:55:12,986 - elan_server - INFO - Received message: Who won IPL 2024
+2025-04-13 13:55:12,987 - elan_server - INFO - Detected specific sporting event with year: Who won IPL 2024
+2025-04-13 13:55:12,988 - elan_server - INFO - Detected current event query, performing web search
+2025-04-13 13:55:12,988 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:55:14,104 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2024&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 13:55:14,104 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:55:17,408 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:55:17,411 - elan_server - INFO - No direct response available, attempting web search enhancement
+2025-04-13 13:55:17,411 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 13:55:18,678 - elan_server - ERROR - Error with Google Custom Search API: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2024&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8
+2025-04-13 13:55:18,679 - elan_server - INFO - Fetching results from SerpAPI (fallback)
+2025-04-13 13:55:19,787 - elan_server - ERROR - Error with SerpAPI: cannot access local variable 'low_quality_domains' where it is not associated with a value
+2025-04-13 13:55:19,789 - elan_server - WARNING - Unable to provide a response via any method
+2025-04-13 13:55:19,790 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 13:55:19] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:04:03,402 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:04:03,403 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:04:03,403 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:04:03,403 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:04:04,386 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 14:04:05,033 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:04:05,061 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 14:04:05,065 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 14:21:46,323 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:21:46,363 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 14:21:46,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 14:21:46,383 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 14:21:46,886 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:21:46,914 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 14:21:46,914 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 14:21:52,148 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:21:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:21:52,398 - elan_server - INFO - Received message: Hello
+2025-04-13 14:21:52,398 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:21:52] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:21:56,510 - elan_server - INFO - Received message: Who are you
+2025-04-13 14:21:56,510 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:21:57,809 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:21:57,997 - elan_server - INFO - Query processing completed in 1.49 seconds
+2025-04-13 14:21:57,999 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:21:57] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:22:03,334 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:22:03] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:22:03,596 - elan_server - INFO - Received message: How are you
+2025-04-13 14:22:03,596 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:22:04,887 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:22:04,893 - elan_server - INFO - Query processing completed in 1.30 seconds
+2025-04-13 14:22:04,894 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:22:04] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:22:17,393 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:22:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:22:17,711 - elan_server - INFO - Received message: Give me a fitness plan
+2025-04-13 14:22:17,711 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:22:19,414 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:22:19,438 - elan_server - INFO - Query processing completed in 1.73 seconds
+2025-04-13 14:22:19,440 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:22:19] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:23:15,314 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:23:15] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:23:15,619 - elan_server - INFO - Received message: Who won IPL 2024
+2025-04-13 14:23:15,620 - elan_server - INFO - Current event query detected
+2025-04-13 14:23:15,620 - elan_server - INFO - Performing web search for: Who won IPL 2024
+2025-04-13 14:23:15,621 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 14:23:16,645 - elan_server - ERROR - Google Search API error: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+IPL+2024&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 14:23:16,646 - elan_server - INFO - Falling back to SerpAPI
+2025-04-13 14:23:18,709 - elan_server - INFO - Found 5 web results, generating summary
+2025-04-13 14:23:18,711 - elan_server - INFO - Sending summarization request to Groq API (attempt 1/3)
+2025-04-13 14:23:20,059 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:23:20] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:23:32,856 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:23:32] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:23:33,164 - elan_server - INFO - Received message: Who won yesterday
+2025-04-13 14:23:33,165 - elan_server - INFO - Current event query detected
+2025-04-13 14:23:33,166 - elan_server - INFO - Performing web search for: Who won yesterday
+2025-04-13 14:23:33,166 - elan_server - INFO - Fetching results from Google Custom Search
+2025-04-13 14:23:34,227 - elan_server - ERROR - Google Search API error: 403 Client Error: Forbidden for url: https://www.googleapis.com/customsearch/v1?q=Who+won+yesterday&key=AIzaSyAjw18thtSYlEDXIKsaNryZVb3vT5wfWlU&cx=6780c1e3d418b4401&num=8&sort=date
+2025-04-13 14:23:34,227 - elan_server - INFO - Falling back to SerpAPI
+2025-04-13 14:23:39,355 - elan_server - INFO - Found 5 web results, generating summary
+2025-04-13 14:23:39,356 - elan_server - INFO - Sending summarization request to Groq API (attempt 1/3)
+2025-04-13 14:23:40,860 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:23:40] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:24:02,680 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:24:02] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:24:02,996 - elan_server - INFO - Received message: Give me a meditation plan
+2025-04-13 14:24:02,996 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:24:04,881 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:24:04,891 - elan_server - INFO - Query processing completed in 1.89 seconds
+2025-04-13 14:24:04,892 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:24:04] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:28:03,286 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:28:03] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:28:03,534 - elan_server - INFO - Received message: Give me some slokas to concentrate
+2025-04-13 14:28:03,535 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:28:05,224 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:28:05,236 - elan_server - INFO - Query processing completed in 1.70 seconds
+2025-04-13 14:28:05,238 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:28:05] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:29:49,430 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:29:49] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:29:49,697 - elan_server - INFO - Received message: Thank You
+2025-04-13 14:29:49,697 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:29:50,949 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:29:50,954 - elan_server - INFO - Query processing completed in 1.26 seconds
+2025-04-13 14:29:50,956 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:29:50] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:35:44,200 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:35:44,200 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:35:44,201 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:35:44,376 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 14:35:45,003 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:35:45,029 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 14:35:45,033 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 14:35:48,679 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:35:48,715 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.8:5000
+2025-04-13 14:35:48,716 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 14:35:48,727 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 14:35:49,238 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:35:49,266 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 14:35:49,267 - werkzeug - INFO -  * Debugger PIN: 458-975-099
+2025-04-13 14:36:01,148 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:36:01] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:36:01,415 - elan_server - INFO - Received message: Hello
+2025-04-13 14:36:01,416 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:36:01] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:36:07,495 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:36:07] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:36:07,807 - elan_server - INFO - Received message: Give me a Fitness Plan
+2025-04-13 14:36:07,807 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:36:09,657 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:36:09,747 - elan_server - INFO - Query processing completed in 1.94 seconds
+2025-04-13 14:36:09,747 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:36:09] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:37:06,011 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:06] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:37:06,321 - elan_server - INFO - Received message: Thank you
+2025-04-13 14:37:06,322 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:06] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:37:10,911 - elan_server - INFO - Received message: Bye
+2025-04-13 14:37:10,912 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:10] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:37:17,296 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:17] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:37:17,545 - elan_server - INFO - Received message: Ok
+2025-04-13 14:37:17,546 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:37:18,869 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:37:18,873 - elan_server - INFO - Query processing completed in 1.33 seconds
+2025-04-13 14:37:18,875 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:18] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:37:52,098 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:52] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:37:52,417 - elan_server - INFO - Received message: Give me a plan for meditation
+2025-04-13 14:37:52,417 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:37:54,146 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:37:54,165 - elan_server - INFO - Query processing completed in 1.75 seconds
+2025-04-13 14:37:54,166 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:37:54] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:38:56,968 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:38:56] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:38:57,226 - elan_server - INFO - Received message: Ok and
+2025-04-13 14:38:57,226 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:38:58,461 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:38:58,465 - elan_server - INFO - Query processing completed in 1.24 seconds
+2025-04-13 14:38:58,466 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:38:58] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:40:08,726 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:40:08] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:40:08,982 - elan_server - INFO - Received message: Tell me about cricket
+2025-04-13 14:40:08,983 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:40:10,926 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:40:10,942 - elan_server - INFO - Query processing completed in 1.96 seconds
+2025-04-13 14:40:10,943 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:40:10] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:41:19,093 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:41:19] "OPTIONS /chat HTTP/1.1" 200 -
+2025-04-13 14:41:19,338 - elan_server - INFO - Received message: Any facts about crickey
+2025-04-13 14:41:19,339 - elan_server - INFO - Sending request to Groq API (attempt 1/3)
+2025-04-13 14:41:21,791 - elan_server - INFO - Successfully received response from Groq
+2025-04-13 14:41:21,798 - elan_server - INFO - Query processing completed in 2.46 seconds
+2025-04-13 14:41:21,799 - werkzeug - INFO - 127.0.0.1 - - [13/Apr/2025 14:41:21] "POST /chat HTTP/1.1" 200 -
+2025-04-13 14:48:06,142 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:48:06,143 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:48:06,143 - werkzeug - INFO -  * Detected change in 'S:\\Pranay Projects\\PhysicalFitness\\server.py', reloading
+2025-04-13 14:48:06,480 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-13 14:48:07,106 - elan_server - INFO - Starting ELAN server
+2025-04-13 14:48:07,134 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 14:48:07,140 - werkzeug - INFO -  * Debugger PIN: 458-975-099
